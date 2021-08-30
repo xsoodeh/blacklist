@@ -1,0 +1,61 @@
+body {
+    font-family: "Roboto";
+    background-color: #19191d;
+}
+
+.container {
+    background-color: #19191d;
+}
+
+table {
+    background-color: #19191d;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+table th, table td {
+    padding: 19px 12px;
+    
+}
+
+table thead tr {
+
+    color: #fff;
+    text-align: left;
+   
+}
+
+table tbody tr {
+    border-top: 3.5px solid #19191d;
+    background-color: #25252b;
+}
+
+table tbody th,
+table tbody tr {
+    color: #777;
+    text-align: left;
+}
+
+table tbody tr th:nth-child(2),
+table tbody tr td:nth-child(2) {
+    color: #b3b3b3;
+}
+
+table tbody th small,
+table tbody td small {
+    color: #b3b3b3;
+}
+
+.hover {
+    background-color: #2e2e36;
+    color: #fff;
+}
+
+.hover td:nth-child(2) {
+    color: #fff;
+}
+
+.hover small {
+    color: #b3b3b3;
+}
